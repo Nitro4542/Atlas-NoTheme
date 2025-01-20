@@ -172,9 +172,6 @@ actions:
   # -------------------------------------------------------------------------- #
   #  qol\appearance                                                            #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\appearance\blue-tooltips.yml'}
-  - !task: {path: 'tweaks\qol\appearance\atlas-theme.yml'}
-  - !task: {path: 'tweaks\qol\appearance\disallow-theme-changes.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\windows-update                                                        #

@@ -20,13 +20,7 @@ Write-Host "You'll be logged out in 10 to 20 seconds, and once you login again, 
 if ([System.Environment]::OSVersion.Version.Build -ge 22000) {
     reg import "$atlasDesktop\4. Interface Tweaks\Context Menus\Windows 11\Old Context Menu (default).reg" *>$null
     reg import "$atlasDesktop\4. Interface Tweaks\File Explorer Customization\Gallery\Disable Gallery (default).reg" *>$null
-
-    # Set ThemeMRU (recent themes)
-    Set-ThemeMRU | Out-Null
 }
-
-# Set lockscreen wallpaper
-Set-LockscreenImage
 
 # Disable 'Network' in navigation pane
 reg import "$atlasDesktop\3. General Configuration\File Sharing\Network Navigation Pane\Disable Network Navigation Pane (default).reg" *>$null
