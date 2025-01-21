@@ -242,7 +242,7 @@ actions:
   # -------------------------------------------------------------------------- #
   #  qol\security                                                              #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\security\disable-uac-secure-desktop.yml'}
+  #- !task: {path: 'tweaks\qol\security\disable-uac-secure-desktop.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\shell                                                                 #
